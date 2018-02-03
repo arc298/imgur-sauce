@@ -1,0 +1,27 @@
+{
+  "name": "imgur-sauce",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "NODE_ENV=test jest",
+    "cover": "NODE_ENV=test jest --coverage",
+    "lint": "eslint --ext .js app/ __test__ --fix",
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
+  },
+  "author": "Richard Arcega",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "cheerio": "^1.0.0-rc.2",
+    "lodash.get": "^4.4.2",
+    "lodash.merge": "^4.6.0",
+    "lodash.template": "^4.4.0"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "eslint": "^4.17.0",
+    "jest": "^22.1.4"
+  }
+}

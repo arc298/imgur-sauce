@@ -1,0 +1,1 @@
+require('./app/imgur_sauce')(process.argv[2])
