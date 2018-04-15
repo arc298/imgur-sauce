@@ -1,3 +1,5 @@
 module.exports = {
-	sauceNaoApiKey: 'sauceNaoApiKey',
+	sauceNao: {
+		apiKey: 'sauceNaoApiKey'
+  }
 }

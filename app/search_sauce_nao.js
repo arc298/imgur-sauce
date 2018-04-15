@@ -4,7 +4,7 @@ const config = require('./config')
 const {sauceNaoSearch} = config.templates
 
 const searchSauceNao = (url) => {
-	const queryStringParams = {apiKey: config.sauceNaoApiKey, url: encodeURIComponent(url)}
+	const queryStringParams = {apiKey: config.sauceNao.apiKey, url: encodeURIComponent(url)}
 	return axios.get(sauceNaoSearch(queryStringParams))
 }
 

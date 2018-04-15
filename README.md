@@ -36,7 +36,9 @@ vi app/config/local.config.js
 
 ```js
 module.exports = {
-  sauceNaoApiKey: 'your api key here'
+  sauceNao: {
+    apiKey: 'your api key here'
+  }
 }
 ```
 
